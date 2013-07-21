@@ -1,0 +1,42 @@
+#wall-of-text{
+  width:125%;
+}
+
+#demo{
+  top:0;
+  left:0;
+  position:fixed;
+  background:gray;
+}
+
+#demo h2{
+  float:left;
+  margin:0;
+  font-size:14px;
+}
+
+#position-abs, #position-fixed{
+  float:left;
+}
+
+#green-box-wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  background:pink;
+  width:200px;
+  height:200px;
+  margin-top:-100px;
+  margin-left:-100px;
+}
+
+#green-box{
+  width:100px;
+  height:100px;
+  background:green;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-50px;
+  margin-top:-50px;
+}
