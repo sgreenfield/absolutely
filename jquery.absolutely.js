@@ -24,8 +24,8 @@
 
     xY: function(position){
       var $el         = $(this.el),
-          marginTop   = parseInt( $el.css('margin-top') ),
-          marginLeft  = parseInt( $el.css('margin-left') ),
+          marginTop   = parseInt( $el.css('margin-top'), 10 ),
+          marginLeft  = parseInt( $el.css('margin-left'), 10 ),
           xDifference = position === 'absolute' ? $(this.opt.relativeTo).offset().left : $(window).scrollLeft(),
           yDifference = position === 'absolute' ? $(this.opt.relativeTo).offset().top  : $(window).scrollTop();
 
